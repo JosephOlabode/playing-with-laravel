@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/project/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/project/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/barryvdh/laravel-cors" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/inflector" />
@@ -23,10 +25,12 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/kylekatarnls/update-helper" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/nunomaduro/collision" />
@@ -74,9 +78,11 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-iconv" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-intl-idn" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-php56" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-php72" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-php73" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-util" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/routing" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/service-contracts" />
@@ -85,6 +91,7 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/tymon/jwt-auth" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/webmozart/assert" />
     </content>

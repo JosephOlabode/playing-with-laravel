@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Bike;
+use App\Http\Resources\BikesResource;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +17,19 @@ use Illuminate\Http\Request;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+// Authentication Routes
+Route::post('register', 'API\AuthController@register');
+Route::post('login', 'API\AuthController@login');
+Route::post('logout', 'API\AuthController@logout');
+
+Route::apiResources([
+    'bikes' => 'API\bikeController',
+    'builders' => 'API\BuilderController',
+    'items' => 'API\ItemController',
+    'bikes/{bike}/ratings' => 'API\RatingController'
+]);
+Route::middleware('jwt.auth')->get('me', function(Request $request) {
+    return auth()->user();
 });
